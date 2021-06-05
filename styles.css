@@ -1,10 +1,10 @@
 .digital-clock { 
-    font-size: 3em; /*To change the size of the numbers*/
-    max-width: 250px;  /*To change the widt of the clock*/
+    
+    font-size: 10em; /*To change the size of the numbers*/
+    max-width: 850px;  /*To change the width of the clock*/
     text-align: center; 
-    border: 2px solid black; /*To change the border around the clock*/
+    border: 5px solid black; /*To change the border around the clock*/
     border-radius: 20px; /*To change how round the edges are*/
-    background-color: white; /*To change the background color of the clock*/
     background: -webkit-linear-gradient(80deg,rgb(238, 4, 4), #333,green,yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -20,8 +20,12 @@
   }
 
 body{
+    padding-left: 14rem;
+    padding-top: 9rem;
     animation-name: bgani;
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
-  
+
+
+
