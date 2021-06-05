@@ -5,6 +5,23 @@
     border: 2px solid black; /*To change the border around the clock*/
     border-radius: 20px; /*To change how round the edges are*/
     background-color: white; /*To change the background color of the clock*/
-    text-decoration: greenyellow;
+    background: -webkit-linear-gradient(80deg,rgb(238, 4, 4), #333,green,yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
     
 }
+
+@keyframes bgani {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: rgb(178, 245, 178);}
+  }
+
+body{
+    animation-name: bgani;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+  
